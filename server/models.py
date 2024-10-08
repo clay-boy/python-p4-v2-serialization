@@ -5,7 +5,7 @@ from sqlalchemy_serializer import SerializerMixin
 metadata = MetaData()
 
 db = SQLAlchemy(metadata=metadata)
-
+ 
 
 class Pet(db.Model):
     __tablename__ = 'pets'
